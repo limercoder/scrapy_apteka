@@ -13,8 +13,12 @@ class MySpider(scrapy.Spider):
     def start_requests(self):
         urls = [
             "https://apteka-ot-sklada.ru/catalog/medikamenty-i-bady/anesteziya-i-rastvoriteli",
+            "https://apteka-ot-sklada.ru/catalog/medikamenty-i-bady%2Fanesteziya-i-rastvoriteli?start=12",
             "https://apteka-ot-sklada.ru/catalog/hozyaystvennye-tovary/bytovaya-himiya",
-            "https://apteka-ot-sklada.ru/catalog/meditsinskaya-tekhnika/gigiena-nosa"
+            "https://apteka-ot-sklada.ru/catalog/hozyaystvennye-tovary%2Fbytovaya-himiya?start=12"
+            "https://apteka-ot-sklada.ru/catalog/meditsinskaya-tekhnika/gigiena-nosa",
+            "https://apteka-ot-sklada.ru/catalog/meditsinskaya-tekhnika%2Fgigiena-nosa?start=12"
+            
         ]
 
 
